@@ -98,6 +98,8 @@ int main(int argc, char **argv) {
 
     authenticate(buf);
 
+    printf("After authenticate.\n");
+    
     close(childfd);
   }
 }
